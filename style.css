@@ -1,0 +1,195 @@
+:root{--sage:#98a086;--olive:#696d45;--rose:#a76d5e;--peach:#bb8588;--gold:#c4a071;--cream:#f5f0e7;--paper:#fbf8f1;--ink:#332c27;--line:#d8cdbd}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',sans-serif}a{color:inherit;text-decoration:none}.nav{height:92px;padding:0 6.5%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e7dfd3;background:rgba(251,248,241,.9);position:sticky;top:0;z-index:10;backdrop-filter:blur(12px)}.brand img{width:78px;height:78px;object-fit:contain;mix-blend-mode:multiply}.nav nav{display:flex;gap:26px;font-size:11px;letter-spacing:.12em;text-transform:uppercase}.nav nav a,.nav-cta{transition:color .25s}.nav nav a:hover,.nav-cta:hover{color:var(--rose)}.nav-cta{font-size:11px;letter-spacing:.1em;text-transform:uppercase}.nav-cta span{font-size:16px;margin-left:8px;color:var(--rose)}.menu{display:none;background:none;border:0}.hero{min-height:710px;height:calc(100vh - 92px);max-height:900px;position:relative;display:grid;grid-template-columns:1.05fr .95fr;padding:76px 9% 90px;overflow:hidden}.hero-copy{align-self:center;z-index:2}.eyebrow{font-size:9px;letter-spacing:.2em;color:var(--olive);font-weight:600}.hero .eyebrow span{display:inline-block;width:22px;height:1px;background:var(--rose);vertical-align:middle;margin-right:9px}.hero h1,.draw-text h2,.section-head h2,.approach-copy h2,.contact h2{font-family:'Playfair Display',serif;font-weight:500;letter-spacing:-.04em}.hero h1{font-size:clamp(48px,6.2vw,86px);line-height:1.08;margin:27px 0}.hero h1 em,.draw-text h2 em,.approach-copy h2 em,.contact h2 em{font-weight:500;color:var(--rose)}.intro{max-width:390px;line-height:1.8;color:#756c60;font-size:14px;margin:0 0 30px}.button{display:inline-flex;align-items:center;gap:28px;background:var(--olive);color:#fffaf0;padding:16px 21px;font-family:inherit;text-transform:uppercase;letter-spacing:.12em;font-size:9px;border:0;cursor:pointer;transition:background .25s,transform .25s}.button:hover{background:var(--rose);transform:translateY(-2px)}.button span{font-size:16px}.hero-note{margin-top:82px;font-size:8px;letter-spacing:.2em;color:#918978}.hero-note span{color:var(--rose);padding:0 8px}.hero-art{position:relative;display:flex;align-items:center;justify-content:center}.image-frame{position:relative;width:min(86%,430px);height:min(68vh,520px);padding:13px;border:1px solid #c8bda8;background:#efe8da;transform:rotate(2deg)}.image-frame:before{content:'';position:absolute;inset:6px;border:1px solid rgba(255,255,255,.65);z-index:1;pointer-events:none}.image-frame img{width:100%;height:100%;object-fit:cover;object-position:center}.image-caption{position:absolute;bottom:13px;right:13px;background:var(--paper);padding:13px 17px;font-family:'Playfair Display';font-style:italic;font-size:13px}.image-caption span{color:var(--rose);font-style:normal;margin-left:10px}.orbit-word{position:absolute;right:-6%;top:14%;writing-mode:vertical-rl;font-size:8px;letter-spacing:.28em;color:var(--rose)}.flower-stamp{position:absolute;bottom:12%;left:7%;font-size:72px;color:var(--rose);opacity:.82}.hero-bottom{position:absolute;bottom:26px;left:9%;right:9%;display:flex;justify-content:space-between;font-size:8px;letter-spacing:.18em;color:#958b7c}.draw-section{background:#eee8dc;position:relative;overflow:hidden;min-height:670px;padding:110px 10% 65px}.draw-inner{max-width:1120px;margin:auto;display:grid;grid-template-columns:1fr 1fr;align-items:center;min-height:470px}.draw-text{max-width:410px;z-index:2}.draw-text h2,.section-head h2,.approach-copy h2,.contact h2{font-size:clamp(42px,5vw,66px);line-height:1.08;margin:22px 0}.draw-text>p:not(.eyebrow),.approach-copy>p:not(.eyebrow){font-size:13px;line-height:1.9;color:#756c60;max-width:390px}.text-link{display:inline-block;font-size:9px;text-transform:uppercase;letter-spacing:.13em;margin-top:22px;border-bottom:1px solid #bcb09d;padding-bottom:8px}.text-link span{color:var(--rose);font-size:15px;margin-left:12px}.lotus-draw{width:min(100%,490px);justify-self:center;overflow:visible}.lotus-draw path{fill:none;stroke-linecap:round;stroke-linejoin:round}.lotus-draw .petal{stroke:var(--rose);stroke-width:2.4}.lotus-draw .stem,.lotus-draw .leaf{stroke:var(--olive);stroke-width:2.4}.lotus-draw .center{stroke:var(--gold);stroke-width:2.4}.draw-caption{position:absolute;right:11%;bottom:18%;font-family:'Playfair Display';font-style:italic;color:var(--olive);font-size:14px}.draw-progress{position:absolute;bottom:32px;left:10%;right:10%;display:flex;align-items:center;gap:15px;color:#8c8373;font-size:8px;letter-spacing:.17em}.progress-line{height:1px;background:#cfc4b1;flex:1;position:relative}.progress-line i{position:absolute;left:0;top:-1px;height:3px;width:0;background:var(--rose)}.celebrations{padding:120px 10% 130px}.section-head{display:flex;align-items:end;justify-content:space-between;margin:0 auto 54px;max-width:1120px}.section-head h2{margin:15px 0 0}.section-head>p{width:290px;color:#766e62;font-size:12px;line-height:1.8}.cards{max-width:1120px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.event-card{position:relative;padding-bottom:18px}.card-photo{height:340px;background-size:cover;background-position:center;position:relative}.photo-wedding{background-image:linear-gradient(0deg,rgba(74,66,49,.05),transparent),url('public/palette-interior.jpeg');background-position:45% center}.photo-gathering{background-image:url('public/palette-florals.jpeg');background-position:48% center}.photo-design{background-image:url('public/ananthava-logo.png');background-size:cover;background-position:center;background-color:#eee5d6}.card-meta{display:flex;justify-content:space-between;margin-top:20px;font-size:8px;letter-spacing:.17em;color:var(--olive)}.event-card h3{font-family:'Playfair Display';font-size:27px;line-height:1.2;font-weight:500;margin:14px 0 9px}.event-card p{font-size:11px;color:#81776b;line-height:1.7;max-width:250px}.event-card>a{position:absolute;right:0;bottom:16px;color:var(--rose);font-size:22px}.approach{background:#e8e6d9;padding:100px 10%;display:grid;grid-template-columns:1fr 1fr;gap:10%;align-items:center}.approach-image{position:relative;height:500px;padding:12px;border:1px solid #bcb9a8}.approach-image img{width:100%;height:100%;object-fit:cover;object-position:center}.approach-image span{position:absolute;bottom:26px;left:26px;color:white;font-size:8px;letter-spacing:.18em;text-shadow:0 1px 5px #333}.approach-copy h2{margin-top:20px}.values{margin:32px 0 8px;border-top:1px solid #c9c7b9}.values div{display:flex;align-items:center;gap:24px;padding:14px 0;border-bottom:1px solid #c9c7b9;font-size:9px;letter-spacing:.12em}.values b{font-family:'Playfair Display';color:var(--rose);font-size:14px;font-weight:500}.quote{min-height:350px;background:var(--olive);color:#f8f2e8;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;position:relative}.quote p{font-family:'Playfair Display';font-size:clamp(32px,4.5vw,58px);line-height:1.2;margin:0 0 24px}.quote p em{color:#e7c8b6}.quote div{font-size:8px;letter-spacing:.2em;color:#d6d2bd}.quote-flower{position:absolute;right:14%;top:25%;font-size:38px;color:#c4a071}.contact{background:#f5f0e7;padding:110px 12%;display:grid;grid-template-columns:1fr 1fr;gap:10%;align-items:center}.contact-top>p:last-child{font-family:'Playfair Display';font-style:italic;color:#877d70;font-size:16px;margin-top:26px}.contact form{display:flex;flex-direction:column;gap:10px}.contact label{font-size:8px;letter-spacing:.16em;color:var(--olive);margin-top:16px}.contact input,.contact select{background:transparent;border:0;border-bottom:1px solid #cfc5b4;padding:12px 0;font-family:'DM Sans';font-size:13px;color:var(--ink);outline:none;width:100%}.contact input:focus,.contact select:focus{border-color:var(--rose)}.contact input::placeholder{color:#a99f91}.contact form .button{align-self:flex-start;margin-top:20px}.contact small{font-size:9px;color:#968c7e}.field-wrap{position:relative}.fake-caret{display:none;position:absolute;width:1px;height:18px;background:var(--rose);left:0;top:12px;pointer-events:none;animation:blink 1s steps(2) infinite}@keyframes blink{50%{opacity:0}}.contact input:focus+.fake-caret{display:block}.form-success{font-size:11px;color:var(--olive);min-height:16px}footer{background:#39362f;color:#eee8db;padding:47px 10% 32px;display:flex;align-items:center;justify-content:space-between}footer .footer-brand{font-family:'Playfair Display';letter-spacing:.14em;font-size:15px}footer .footer-brand span{display:block;text-align:center;font-family:'DM Sans';font-size:8px;letter-spacing:.35em;margin-top:7px;color:#c9bda9}footer p{font-family:'Playfair Display';font-style:italic;color:#c8bdab;font-size:14px}footer div{display:flex;gap:24px;font-size:8px;letter-spacing:.13em}footer small{font-size:7px;letter-spacing:.1em;color:#aaa08f}
+@media(max-width:760px){.nav{height:72px;padding:0 5%}.brand img{width:62px;height:62px}.nav nav{display:none}.nav-cta{font-size:8px}.menu{display:block;color:var(--olive);font-size:18px}.hero{height:auto;min-height:850px;grid-template-columns:1fr;padding:68px 8% 78px}.hero h1{font-size:53px}.hero-note{margin-top:45px}.hero-art{margin-top:48px;min-height:400px}.image-frame{width:82%;height:390px}.flower-stamp{left:1%;bottom:0}.orbit-word{right:2%;top:8%}.hero-bottom{left:8%;right:8%;font-size:7px}.draw-section{padding:85px 8% 74px;min-height:900px}.draw-inner{grid-template-columns:1fr;gap:8px}.lotus-draw{width:min(94%,400px);margin-top:-10px}.draw-caption{bottom:12%;right:10%}.draw-progress{left:8%;right:8%}.celebrations{padding:86px 8%}.section-head{display:block;margin-bottom:35px}.section-head>p{width:auto;max-width:400px;margin-top:24px}.cards{grid-template-columns:1fr;gap:44px}.card-photo{height:370px}.event-card h3{font-size:30px}.approach{padding:80px 8%;grid-template-columns:1fr;gap:45px}.approach-image{height:400px}.quote{min-height:300px;padding:30px}.quote-flower{right:9%;top:14%}.contact{padding:80px 8%;grid-template-columns:1fr;gap:34px}.contact h2{font-size:52px}footer{padding:40px 8%;display:grid;grid-template-columns:1fr 1fr;gap:26px}footer p{text-align:right}footer div{grid-column:1/-1;justify-content:space-between;gap:10px}footer small{grid-column:1/-1}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* Subtle 3D motion */
+.hero-art{perspective:1100px;transform-style:preserve-3d}.image-frame{transform-style:preserve-3d;will-change:transform;transition:transform .45s cubic-bezier(.2,.7,.2,1),box-shadow .45s;box-shadow:0 28px 60px rgba(71,58,39,.12)}.image-frame img{transform:translateZ(16px);transition:transform .45s}.image-caption{transform:translateZ(42px)}.flower-stamp{transform:translateZ(70px);animation:flowerFloat 5s ease-in-out infinite}.orbit-word{transform:translateZ(25px)}@keyframes flowerFloat{0%,100%{translate:0 0;rotate:-5deg}50%{translate:0 -13px;rotate:5deg}}
+.lotus-draw{perspective:800px;transform-style:preserve-3d}.lotus-draw .petal{transform-box:fill-box;transform-origin:center bottom;filter:drop-shadow(0 7px 5px rgba(120,75,66,.08))}.lotus-draw .petal:nth-of-type(1){transform:translateZ(38px)}.lotus-draw .petal:nth-of-type(2),.lotus-draw .petal:nth-of-type(3){transform:translateZ(22px)}.lotus-draw .petal:nth-of-type(4),.lotus-draw .petal:nth-of-type(5){transform:translateZ(8px)}.lotus-draw .petal:nth-of-type(6),.lotus-draw .petal:nth-of-type(7){transform:translateZ(46px)}
+.event-card{perspective:900px;transform-style:preserve-3d;transition:transform .35s ease}.card-photo{transform:translateZ(0);transition:transform .4s ease,box-shadow .4s;box-shadow:0 10px 24px rgba(48,41,32,.08)}.event-card:hover .card-photo{transform:translateZ(24px) scale(.985);box-shadow:0 24px 40px rgba(48,41,32,.16)}.event-card h3,.event-card p,.event-card .card-meta{transition:transform .35s}.event-card:hover h3,.event-card:hover p,.event-card:hover .card-meta{transform:translateZ(16px)}
+.approach-image{perspective:1000px;transform-style:preserve-3d}.approach-image img{transform:translateZ(10px);transition:transform .6s}.approach-image:hover img{transform:translateZ(28px) scale(.98)}
+@media(prefers-reduced-motion:reduce){.flower-stamp{animation:none}.image-frame,.image-frame img,.event-card,.card-photo,.approach-image img{transition:none}}
+
+/* Ananthava art direction: editorial, tactile, and distinctly botanical */
+:root{--sage:#98a086;--olive:#494f36;--rose:#a76d5e;--peach:#bb8588;--gold:#c4a071;--cream:#f5f0e7;--paper:#f0ede3;--ink:#303329;--line:#c7c4b3}
+body{background:#f0ede3;color:#303329}.nav{background:#f0ede3;border-color:#d4d0c2}.nav nav{font-size:9px;letter-spacing:.18em}.nav-cta{border-bottom:1px solid #9d785e;padding:9px 0}.brand img{mix-blend-mode:multiply}
+.hero{min-height:760px;background:#494f36;color:#f4eedf;grid-template-columns:1.15fr .85fr;padding-top:66px;padding-bottom:98px}.hero .eyebrow,.hero-note,.hero-bottom{color:#d0cbb8}.hero .eyebrow span{background:#d49c80}.hero h1{font-size:clamp(54px,7.5vw,108px);line-height:.99;letter-spacing:-.055em}.hero h1 em{color:#d9a58d}.intro{color:#ded8c7;max-width:345px}.hero .button{background:#d4a184;color:#303329}.hero .button:hover{background:#f0d0b6}.hero-note{margin-top:92px}.image-frame{width:min(82%,400px);height:min(66vh,485px);border:0;background:#d1c3a5;padding:9px;transform:rotate(3deg)}.image-frame:before{inset:0;border:1px solid rgba(246,238,219,.7)}.image-frame img{filter:sepia(.08) saturate(.82)}.image-caption{right:-22px;bottom:32px;background:#d4a184;color:#303329;font-size:14px}.orbit-word{color:#e6bea5}.flower-stamp{color:#dca082}.hero-bottom{left:9%;right:9%}
+.draw-section{height:185vh;min-height:0;padding:0;background:#e2dfd0;color:#303329}.draw-inner{position:sticky;top:0;height:100vh;max-width:none;padding:60px 10%;grid-template-columns:.9fr 1.1fr;overflow:hidden}.draw-text h2{font-size:clamp(50px,6vw,82px)}.draw-text>p:not(.eyebrow){max-width:330px}.lotus-draw{width:min(100%,560px);max-height:78vh}.lotus-draw .petal{stroke:#a76d5e;stroke-width:2.1}.lotus-draw .stem,.lotus-draw .leaf{stroke:#626749}.draw-caption{bottom:13%;right:12%;color:#626749}.draw-progress{bottom:28px}.draw-progress span{color:#777561}
+.celebrations{background:#f0ede3;padding-top:132px;padding-bottom:150px}.section-head h2{font-size:clamp(48px,6vw,78px)}.section-head>p{max-width:250px;font-family:'Playfair Display';font-style:italic;font-size:15px}.cards{gap:38px}.event-card:nth-child(2){margin-top:75px}.event-card:nth-child(3){margin-top:24px}.card-photo{height:390px;background-color:#c7c0a9}.photo-wedding{background-image:linear-gradient(0deg,rgba(41,47,31,.15),transparent),url('public/palette-interior.jpeg');background-position:58% center}.photo-gathering{background-image:linear-gradient(0deg,rgba(41,47,31,.07),transparent),url('public/palette-florals.jpeg')}.photo-design{background-image:linear-gradient(0deg,rgba(41,47,31,.12),transparent),url('public/ananthava-logo.png');background-size:cover;background-position:center;background-color:#d6c8af}.event-card h3{font-size:30px}.card-meta{color:#747655}
+.approach{background:#d2d0bd;padding-top:125px;padding-bottom:125px;gap:12%}.approach-image{border:0;padding:0;height:570px;transform:rotate(-2deg)}.approach-image img{filter:saturate(.8)}.approach-image span{background:#494f36;padding:11px 14px;bottom:14px;left:14px}.approach-copy h2{font-size:clamp(50px,6vw,78px)}.values{border-color:#aaa994}.values div{border-color:#aaa994}.quote{background:#494f36;min-height:410px}.quote p{font-size:clamp(38px,5.6vw,74px)}.quote-flower{color:#d4a184}.quote p em{color:#d9a58d}
+.contact{background:#b7b8a1;padding-top:130px;padding-bottom:130px}.contact h2{font-size:clamp(50px,6vw,78px)}.contact .eyebrow,.contact label{color:#50553c}.contact input,.contact select{border-color:#92947c}.contact form .button{background:#494f36;color:#f7f0e3}.contact form .button:hover{background:#a76d5e}footer{background:#303329}footer .footer-brand{letter-spacing:.2em}
+@media(max-width:760px){.hero{min-height:900px;padding-top:58px;background:#494f36}.hero h1{font-size:59px}.hero-art{margin-top:35px}.image-frame{height:365px}.draw-section{height:170vh;min-height:0}.draw-inner{height:100vh;grid-template-columns:1fr;padding:65px 8% 70px;align-content:center}.draw-text h2{font-size:54px;margin:13px 0}.draw-text>p:not(.eyebrow){font-size:12px;line-height:1.65}.draw-text .text-link{margin-top:10px}.lotus-draw{width:min(85%,340px);max-height:44vh;margin-top:0;justify-self:center}.draw-caption{bottom:12%;right:8%;font-size:12px}.event-card:nth-child(2),.event-card:nth-child(3){margin-top:0}.card-photo{height:390px}.approach-image{height:420px}.contact{background:#b7b8a1}}
+.draw-section{height:110vh}
+@media(max-width:760px){.draw-section{height:110vh}}
+/* Two-bloom lotus illustration: layered petals, depth, and a slow living sway */
+.lotus-draw{width:min(100%,560px);max-height:78vh;overflow:visible;perspective:1100px;filter:drop-shadow(0 20px 14px rgba(75,65,47,.1))}
+.lotus-art{transform-origin:50% 55%;transform-style:preserve-3d;animation:lotusSway 8s ease-in-out infinite}
+.lotus-draw path{fill:rgba(247,224,215,.42);stroke-linecap:round;stroke-linejoin:round}
+.lotus-draw .stem{fill:none;stroke:#59623c;stroke-width:5;filter:drop-shadow(2px 4px 2px rgba(47,54,31,.22))}
+.lotus-draw .stem-back{stroke:#73784c;stroke-width:4}
+.lotus-draw .leaf{fill:rgba(98,112,61,.18);stroke:#647143;stroke-width:3}
+.lotus-draw .petal{stroke:#b54669;stroke-width:2.5;transform-box:fill-box;transform-origin:center bottom;filter:drop-shadow(0 8px 5px rgba(137,57,80,.12))}
+.lotus-draw .petal.back{fill:rgba(220,107,142,.18);stroke:#bd5978}
+.lotus-draw .petal.front{fill:rgba(255,231,222,.46);stroke:#b44269}
+.lotus-draw .petal:nth-of-type(8n){transform:translateZ(34px)}
+.lotus-draw .petal:nth-of-type(8n + 1){transform:translateZ(18px)}
+.lotus-draw .petal:nth-of-type(8n + 2){transform:translateZ(25px)}
+.lotus-draw .petal:nth-of-type(8n + 3){transform:translateZ(10px)}
+.lotus-draw .petal:nth-of-type(8n + 4){transform:translateZ(14px)}
+.lotus-draw .petal:nth-of-type(8n + 5){transform:translateZ(44px)}
+.lotus-draw .petal.small{filter:drop-shadow(0 6px 4px rgba(137,57,80,.15))}
+.lotus-draw .center{fill:none;stroke:#d4a05f;stroke-width:3}
+.lotus-draw .center.small{stroke-width:2.4}
+@keyframes lotusSway{0%,100%{transform:rotateY(-2deg) rotateZ(-.5deg)}50%{transform:rotateY(3deg) rotateZ(.8deg)}}
+@media(max-width:760px){.lotus-draw{width:min(85%,340px);max-height:44vh}}
+@media(prefers-reduced-motion:reduce){.lotus-art{animation:none}}
+
+.portfolio{position:relative;background:#f0ede3;padding:130px 10% 115px;overflow:hidden}.portfolio-stroke{position:absolute;left:0;top:34px;width:100%;height:80px;overflow:visible}.portfolio-stroke path{fill:none;stroke:#a76d5e;stroke-width:2.4;stroke-linecap:round;stroke-dasharray:1800;stroke-dashoffset:1800;filter:drop-shadow(0 3px 2px rgba(137,57,80,.1));animation:drawDivider 2.2s cubic-bezier(.22,.72,.28,1) .25s forwards}@keyframes drawDivider{to{stroke-dashoffset:0}}.portfolio-heading{max-width:1120px;margin:0 auto 58px;display:flex;align-items:end;justify-content:space-between}.portfolio-heading h2{font-family:'Playfair Display',serif;font-size:clamp(46px,5.6vw,72px);font-weight:500;letter-spacing:-.04em;line-height:1.06;margin:18px 0 0}.portfolio-heading h2 em{font-weight:500;color:#a76d5e}.portfolio-grid{max-width:1120px;margin:auto;display:grid;grid-template-columns:1.12fr .88fr 1fr;gap:30px;align-items:start}.portfolio-item:nth-child(2){margin-top:74px}.portfolio-item:nth-child(3){margin-top:28px}.portfolio-image{position:relative;height:350px;overflow:hidden;background:#d2c8b4}.portfolio-item:nth-child(2) .portfolio-image{height:300px}.portfolio-item:nth-child(3) .portfolio-image{height:330px}.portfolio-image img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.7,.2,1);filter:saturate(.83)}.portfolio-item:hover .portfolio-image img{transform:scale(1.045)}.portfolio-item:nth-child(3) .portfolio-image img{object-position:center}.portfolio-image span{position:absolute;left:14px;bottom:14px;background:#f0ede3;color:#4b5038;padding:9px 11px;font-size:8px;letter-spacing:.14em}.portfolio-item h3{font-family:'Playfair Display',serif;font-weight:500;font-size:25px;margin:19px 0 7px}.portfolio-item p{font-size:11px;line-height:1.75;color:#7b7668;max-width:290px;margin:0}.portfolio-foot{max-width:1120px;margin:60px auto 0;padding-top:16px;border-top:1px solid #c7c4b3;display:flex;justify-content:space-between;color:#777561;font-size:8px;letter-spacing:.16em}
+@media(max-width:760px){.portfolio{padding:110px 8% 80px}.portfolio-stroke{top:25px;height:65px}.portfolio-heading{display:block;margin-bottom:36px}.portfolio-heading h2{font-size:48px}.portfolio-heading .text-link{margin-top:20px}.portfolio-grid{grid-template-columns:1fr;gap:38px}.portfolio-item:nth-child(2),.portfolio-item:nth-child(3){margin-top:0}.portfolio-image,.portfolio-item:nth-child(2) .portfolio-image,.portfolio-item:nth-child(3) .portfolio-image{height:360px}.portfolio-foot{margin-top:40px;gap:20px;line-height:1.5}.portfolio-foot span:last-child{text-align:right}}
+
+/* The portfolio flourish is a left-to-right, self-playing lotus stroke. */
+.portfolio-stroke{top:15px;height:90px;overflow:visible}.portfolio-stroke path{fill:none;stroke:#a84668;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;animation:none;filter:drop-shadow(0 2px 1px rgba(137,57,80,.12))}.portfolio-stroke .stroke-lotus{stroke:#a84668;stroke-width:2.6}.portfolio-stroke .stroke-lotus.inner{stroke:#c27a75;stroke-width:2}.portfolio-intro{max-width:460px;color:#777366;font-size:12px;line-height:1.8;margin-top:20px}.portfolio-heading{align-items:end}.draw-section{height:112vh}.draw-inner{top:92px;height:calc(100vh - 92px)}.draw-progress{pointer-events:none}.draw-progress span:last-child{font-variant-numeric:tabular-nums}
+.contact textarea{background:transparent;border:0;border-bottom:1px solid #92947c;padding:12px 0;font:13px 'DM Sans',sans-serif;color:var(--ink);resize:vertical;outline:none}.contact textarea:focus{border-color:var(--rose)}.contact textarea::placeholder{color:#a99f91}
+footer{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:19px;padding:56px 10% 38px}footer .footer-brand span{text-align:center}footer p{margin:0}footer div{justify-content:center}footer small{text-align:center}
+@media(max-width:760px){.draw-section{height:112vh}.draw-inner{top:92px;height:calc(100vh - 92px)}.portfolio-stroke{height:75px}.portfolio-intro{font-size:11px}.contact textarea{min-height:72px}}
+@media(prefers-reduced-motion:reduce){.portfolio-stroke path{stroke-dasharray:none!important;stroke-dashoffset:0!important}.lotus-art{animation:none}}
+
+/* Portfolio shares the lotus-page colour; its animated flourish sits behind the work. */
+.portfolio{background:#e2dfd0;isolation:isolate}
+.portfolio-stroke{top:47%;left:0;z-index:-1;height:170px;opacity:.32;pointer-events:none}
+.portfolio-heading,.portfolio-grid,.portfolio-foot{position:relative;z-index:1}
+.portfolio-image span{background:rgba(226,223,208,.94)}
+@media(max-width:760px){.portfolio-stroke{top:51%;height:110px;opacity:.25}}
+
+/* Subtle hover response for the three approach points. */
+.values div{transform-origin:left center;transition:transform .28s ease,color .28s ease;padding-left:3px;padding-right:3px}
+.values div:hover{transform:scale(1.035);color:#a76d5e}
+.values div b{transition:transform .28s ease,color .28s ease}
+.values div:hover b{transform:scale(1.12);color:#8f3e5a}
+@media(prefers-reduced-motion:reduce){.values div,.values div b{transition:none}}
+
+/* Improve readability while keeping the heading scale intact. */
+body{font-size:16px}
+.nav nav,.nav-cta{font-size:11px}
+.eyebrow{font-size:10px}
+.intro{font-size:16px;line-height:1.75}
+.hero-note,.hero-bottom,.draw-progress span,.card-meta,.portfolio-image span,.portfolio-foot,footer small{font-size:10px}
+.button{font-size:10px}
+.draw-text>p:not(.eyebrow),.approach-copy>p:not(.eyebrow){font-size:15px;line-height:1.8}
+.section-head>p{font-size:14px;line-height:1.8}
+.event-card p,.portfolio-item p{font-size:14px;line-height:1.75}
+.portfolio-intro{font-size:14px;line-height:1.8}
+.values div{font-size:12px}
+.contact label{font-size:10px}
+.contact input,.contact select,.contact textarea{font-size:16px}
+.contact small{font-size:12px;line-height:1.6}
+footer div{font-size:10px}
+@media(max-width:760px){
+ .nav nav,.nav-cta{font-size:11px}
+ .hero-note,.hero-bottom{font-size:9px}
+ .draw-text>p:not(.eyebrow),.approach-copy>p:not(.eyebrow){font-size:14px}
+ .event-card p,.portfolio-item p,.portfolio-intro{font-size:14px}
+ .contact small{font-size:12px}
+}
+
+/* Hero uses the supplied Ananthava lotus and wordmark as its main artwork. */
+.hero-art .image-frame{width:min(82%,440px);height:auto;aspect-ratio:1;padding:0;border:0;border-radius:50%;background:#f0ede3;box-shadow:0 26px 70px rgba(0,0,0,.18);transform:rotate(2deg);overflow:hidden}
+.hero-art .image-frame:before{inset:10px;border:1px solid rgba(106,105,77,.28);border-radius:50%;z-index:2}
+.hero-art .image-frame img{width:100%;height:100%;object-fit:cover;object-position:center;border-radius:50%;mix-blend-mode:multiply;transform:translateZ(16px)}
+.hero-art .image-caption,.hero-art .orbit-word,.hero-art .flower-stamp{display:none}
+@media(max-width:760px){.hero-art .image-frame{width:min(80%,370px);height:auto;aspect-ratio:1}}
+
+/* Larger, recognisable lotus bloom across the portfolio background. */
+.portfolio-stroke{top:39%;left:0;width:100%;height:420px;z-index:0;opacity:.22}
+.portfolio-line{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.portfolio-bloom{position:absolute;left:50%;top:0;transform:translateX(-50%);width:min(37vw,520px);height:100%;overflow:visible}
+.portfolio-stroke path{fill:none;stroke:#a84668;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 2px 1px rgba(137,57,80,.08))}
+.portfolio-stroke .stroke-lotus.outer{stroke-width:2.8}
+.portfolio-stroke .stroke-lotus.inner{stroke:#b05a70;stroke-width:2.3}
+.portfolio-heading,.portfolio-grid,.portfolio-foot{z-index:1}
+@media(max-width:760px){.portfolio-stroke{top:41%;height:340px;opacity:.20}.portfolio-bloom{width:min(78vw,390px)}}
+
+/* The bloom fills the portfolio canvas. Its content appears after the stroke completes. */
+.portfolio-stroke{top:31%;height:min(88vw,840px);max-height:840px;opacity:.18}
+.portfolio-line{height:100%}
+.portfolio-line .stroke-left,.portfolio-line .stroke-right{stroke-width:2.5}
+.portfolio-bloom{width:min(84vw,1100px);height:100%}
+.portfolio-motion-ready .portfolio-heading,
+.portfolio-motion-ready .portfolio-grid,
+.portfolio-motion-ready .portfolio-foot{opacity:0;transform:translateY(16px);transition:opacity .85s ease,transform .85s ease}
+.portfolio-motion-ready.portfolio-revealed .portfolio-heading,
+.portfolio-motion-ready.portfolio-revealed .portfolio-grid,
+.portfolio-motion-ready.portfolio-revealed .portfolio-foot{opacity:1;transform:translateY(0)}
+@media(max-width:760px){
+ .portfolio-stroke{top:30%;height:min(100vw,560px);max-height:560px;opacity:.16}
+ .portfolio-bloom{width:min(96vw,600px);height:100%}
+}
+@media(prefers-reduced-motion:reduce){.portfolio-motion-ready .portfolio-heading,.portfolio-motion-ready .portfolio-grid,.portfolio-motion-ready .portfolio-foot{transition:none}}
+
+/* Keep the portfolio lotus within the Our Work to Visual References content span. */
+.portfolio-stroke{top:12%;height:75%;max-height:none}
+.portfolio-bloom{width:min(84vw,1100px);height:100%}
+@media(max-width:760px){.portfolio-stroke{top:12%;height:min(58vh,560px);max-height:560px}.portfolio-bloom{width:min(96vw,600px);height:100%}}
+.portfolio-motion-ready .portfolio-heading,.portfolio-motion-ready .portfolio-grid,.portfolio-motion-ready .portfolio-foot{transition:opacity .45s ease,transform .45s ease}
+
+.contact-links{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-self:center}
+.contact-link-card{position:relative;min-height:190px;border:1px solid #92947c;background:rgba(240,237,227,.4);padding:24px;display:flex;flex-direction:column;justify-content:flex-end;gap:11px;transition:transform .3s ease,background .3s ease}
+.contact-link-card:hover{transform:translateY(-5px);background:rgba(240,237,227,.75)}
+.contact-link-card>span{font-size:10px;letter-spacing:.17em;color:#50553c}
+.contact-link-card strong{font-family:'Playfair Display',serif;font-size:20px;font-weight:500}
+.contact-link-card small{font-size:12px;color:#756c60}
+.contact-link-card>b{position:absolute;right:20px;top:18px;color:#a76d5e;font-size:20px;font-weight:400}
+.thank-you{padding:100px 8%;text-align:center;background:#e2dfd0}
+.thank-you h2{font-family:'Playfair Display',serif;font-size:clamp(36px,4.6vw,62px);font-weight:500;line-height:1.2;letter-spacing:-.04em;margin:22px 0 0}
+.thank-you h2 em{font-weight:500;color:#a76d5e}
+@media(max-width:760px){.contact-links{grid-template-columns:1fr}.contact-link-card{min-height:150px}.thank-you{padding:76px 8%}}
+footer{gap:12px;padding:32px 8% 22px}
+footer .footer-brand{font-size:13px}
+footer .footer-brand span{font-size:7px;margin-top:4px}
+footer p{font-size:12px}
+footer div{gap:18px;font-size:9px}
+footer small{font-size:8px}
+@media(max-width:760px){footer{padding:28px 8% 20px;gap:12px}}
+footer{flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 22px;padding:14px 6% 12px;line-height:1.2}
+footer .footer-brand{font-size:11px;letter-spacing:.14em}
+footer .footer-brand span{display:inline;text-align:left;font-size:7px;letter-spacing:.24em;margin:0 0 0 5px}
+footer p{font-size:10px}
+footer div{gap:14px;font-size:8px}
+footer small{font-size:7px}
+@media(max-width:760px){footer{flex-direction:column;gap:8px;padding:13px 6% 11px}footer div{gap:12px}}
+.thank-you-primary{font-size:1.18em}
+@media(max-width:760px){.thank-you-primary{font-size:1.08em}}
+
+/* Hovering a heading rolls its letters upward in a centre-out stagger. */
+.roll-link .text-roll{position:relative;display:inline-block;height:1.14em;overflow:hidden;vertical-align:bottom;line-height:inherit;white-space:pre}
+.text-roll-layer{display:block;white-space:pre}
+.text-roll-next{position:absolute;inset:0}
+.text-roll-char{display:inline-block;transition:transform .52s cubic-bezier(.22,.72,.28,1);transition-delay:var(--roll-delay,0s)}
+.text-roll-current .text-roll-char{transform:translateY(0)}
+.text-roll-next .text-roll-char{transform:translateY(110%)}
+.roll-link:hover .text-roll-current .text-roll-char{transform:translateY(-110%)}
+.roll-link:hover .text-roll-next .text-roll-char{transform:translateY(0)}
+@media(prefers-reduced-motion:reduce){.text-roll-char{transition:none}}
+
+.nav nav a,.nav-cta{display:inline-block}
+.nav .text-roll{height:1.2em}
+@media(max-width:900px) and (min-width:761px){.nav nav{gap:16px}.nav nav a{font-size:9px}}
+
+/* Page 2 layout: lotus at left, copy at right. */
+.draw-text{grid-column:2;grid-row:1}
+.lotus-draw{grid-column:1;grid-row:1}
+@media(max-width:760px){.lotus-draw{grid-column:1;grid-row:1}.draw-text{grid-column:1;grid-row:2}}
+
+/* Page 2 lotus follows normal scroll without locking the screen. */
+.draw-section{height:210vh;min-height:0;padding:0}
+.draw-inner{top:92px;height:calc(100vh - 92px)}
+@media(max-width:760px){.draw-section{height:205vh}.draw-inner{top:72px;height:calc(100vh - 72px)}.lotus-draw{max-height:35vh}}
+
+/* Let page 2 scroll naturally while its lotus follows the scroll position. */
+.draw-section{height:auto;min-height:calc(100vh - 92px);padding:60px 10% 70px;overflow:visible}
+.draw-inner{position:relative;top:auto;height:auto;min-height:calc(100vh - 150px);padding:25px 0;overflow:visible}
+.draw-progress{bottom:18px}
+@media(max-width:760px){
+ .draw-section{height:auto;min-height:0;padding:55px 8% 64px}
+ .draw-inner{position:relative;top:auto;height:auto;min-height:0;padding:0 0 25px;align-content:start}
+ .lotus-draw{max-height:36vh;margin-top:0}
+ .draw-progress{bottom:18px}
+}
